@@ -1,0 +1,23 @@
+.contactBox{
+  background-color: $primary-color;
+  border-radius: 5px;
+}
+
+#contactMe {
+    @extend .pictureBackground;
+  background: $dark-gradient, url("../../src/img/background-3.jpeg");
+}
+
+input:required,
+textarea:required {
+  box-shadow: none !important;
+}
+
+@media screen and (min-width: 768px) {
+  .modal:before {
+    display: inline-block;
+    vertical-align: middle;
+    content: " ";
+    height: 100%;
+  }
+}

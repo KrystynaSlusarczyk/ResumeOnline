@@ -1,0 +1,106 @@
+
+.timeline {
+  width: 5px;
+  // height: 1100px;
+  padding-top: 50px;
+  background: -webkit-linear-gradient(rgba(0, 142, 214, 0), $primary-color, rgba(0, 142, 214, 0));
+  background: -o-linear-gradient(rgba(0, 142, 214, 0), $primary-color, rgba(0, 142, 214, 0));
+  background: -moz-linear-gradient(rgba(0, 142, 214, 0), $primary-color, rgba(0, 142, 214, 0));
+  background: linear-gradient(rgba(0, 142, 214, 0), $primary-color, rgba(0, 142, 214, 0));
+}
+
+.timeline-content {
+  width: 500px;
+}
+
+.popover {
+  max-width: 30%;
+  min-width: 200px;
+}
+
+.timeline-content-header {
+  font-size: 20px;
+}
+
+.timeline-content-subheader {
+  font-size: 12px;
+}
+
+.timeline-item {
+  position: relative;
+  width: 50px;
+  height: 50px;
+  background-color: white;
+  border-radius: 50%;
+  margin-left: -23px;
+  vertical-align: middle;
+  z-index: 5;
+  // margin-top: 100px;
+}
+
+.timeline-icon {
+  color: #fff;
+  width: 50px;
+  height: 50px;
+  text-align: center;
+  position: relative;
+  top: 10px;
+}
+
+.timeline-icon > i {
+  color: white;
+}
+
+.popover {
+  max-width: 40%;
+}
+
+.popover-body {
+  max-width: 510px;
+}
+
+.timeline-content-header {
+  font-size: 20px;
+  border-bottom: 1px solid $primary-color;
+  margin-bottom: 5px;
+}
+
+.arrow{
+  margin-top: 10px;
+}
+
+.logo {
+  background-position: center !important;
+  background-size: contain !important;
+  background-repeat: no-repeat !important;
+}
+
+#motabi {
+  background: #fff url("../../src/img/motabi.png");
+}
+
+#nokia {
+  background: #fff url("../../src/img/nokia.png");
+}
+
+#vsoft,
+#vsoftInternship {
+  background: #fff url("../../src/img/vsoft.png");
+}
+
+#jagiellonianUniversityBachelorsDegree,
+#jagiellonianUniversityMastersDegree {
+  background: #fff url("../../src/img/jagiellonianUniversity.png");
+}
+
+@media (max-width: $medium-screen-width)
+{
+  .timeline {
+    margin-right: 5px !important;
+  }
+
+  .popover {
+    max-width: 70%;
+  }
+
+}

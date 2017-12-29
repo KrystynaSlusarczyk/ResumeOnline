@@ -1,0 +1,47 @@
+
+.img-circle {
+  border-radius: 50%;
+}
+
+.short-info-block {
+  border: 1px solid #ddd;
+  border-radius: 4px;
+  margin-top: 30px;
+  border-top: 4px solid $primary-color;
+  font-size: 30px;
+  background: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4));
+}
+
+.btn-whiteBordered {
+  border: 1px solid #fff !important;
+}
+
+.fa {
+  font-size: 30px;
+}
+
+.fa-clickable:hover {
+  cursor: pointer !important;
+}
+
+#showcase {
+  @extend .pictureBackground;
+  background: $dark-gradient, url("../../src/img/background-1.jpeg");
+}
+
+@media (max-width: $small-screen-width) {
+  #showcase {
+    min-height: 1200px;
+  }
+
+  .img-circle {
+    height: 250px;
+    width: 250px;
+  }
+
+    .short-info-block {
+      margin-top: 5px;
+      padding: 10px !important;
+      font-size: 18px;
+    }
+}

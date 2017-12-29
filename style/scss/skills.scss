@@ -1,0 +1,32 @@
+
+.progress {
+  height: 30px;
+  margin-bottom: 15px;
+  background: none;
+}
+
+.progress-bar {
+  font-size: 20px;
+  align-items: left;
+  justify-content: left;
+}
+
+.progress-bar span {
+  margin-left: 10px;
+}
+
+#skills {
+  @extend .pictureBackground;
+  background: $dark-gradient, url("../../src/img/background-2.jpg");
+}
+
+@media (max-width: $small-screen-width) {
+  .progress {
+    margin-bottom: 6px;
+  }
+
+  .progress-bar {
+    font-size: 14px;
+    padding-top: 4px;
+  }
+}

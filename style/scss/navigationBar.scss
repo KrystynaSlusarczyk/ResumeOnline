@@ -1,0 +1,13 @@
+.navbar {
+  border-bottom: 3px solid $primary-color;
+  z-index: 2000;
+  margin-bottom: 5px;
+}
+
+.nav-link {
+  font-size: 20px;
+}
+
+.navbar-brand:hover{
+  cursor: pointer;
+}

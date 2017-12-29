@@ -1,0 +1,41 @@
+@import "~bootstrap/scss/bootstrap.scss";
+@import "~font-awesome/css/font-awesome.min.css";
+$primary-color: #008ed6;
+$dark-color: #343a40;
+$dark-gradient: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7));
+$extra-large-screen-width: 1200px;
+$large-screen-width: 992px;
+$medium-screen-width: 768px;
+$small-screen-width: 576px;
+$extra-small-screen-width: 320px;
+@import "navigationBar.scss";
+@import "skills.scss";
+@import "showcase.scss";
+@import "contactMe.scss";
+@import "experienceAndEducation.scss";
+@import "certificates.scss";
+@import "modal.scss";
+
+body {
+  position: relative;
+  background-color: $dark-color;
+}
+
+section {
+  padding-top: 50px;
+}
+
+.pictureBackground {
+  background-repeat: no-repeat;
+  min-height: 900px;
+}
+
+@media (max-width: $small-screen-width) {
+  .display-3 {
+    font-size: 45px !important;
+  }
+
+  .pictureBackground {
+    min-height: 700px;
+  }
+}
