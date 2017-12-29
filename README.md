@@ -1,7 +1,8 @@
 # Krystyna Ślusarczyk - Resume online
 
 Check my [LinkedIn](https://www.linkedin.com/in/krystyna-%C5%9Blusarczyk-634576a4/)
-Check out [this webpage online]!(www.krystyna-slusarczyk.herokuapp.com)
+
+Check out [this webpage online!](http://krystyna-slusarczyk.herokuapp.com)
 
 ### What's inside:
 * React
@@ -35,7 +36,7 @@ Webpack-dev-server: > npm run serve
 Node server (required to send messages - needs env configuration!): > node server.js
 ```
 
-### How to launch this project:
+### How to build this project:
 ```
 Development: > npm run build
 Production: > npm run build-prod
