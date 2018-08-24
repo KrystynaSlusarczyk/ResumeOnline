@@ -15,7 +15,7 @@ const EXPERIENCE_AND_EDUCATION = {
     "upkeep and development of ASP.NET MVC application supporting credit risk evaluation for financial organisations"
   ],
   "vsoftInternship" : [
-    "creating web application managing company's site resources like rooms and equipment"
+    "creating web application managing company's site resources like rooms or equipment"
   ],
   "jagiellonianUniversityMastersDegree" : [
     "Master's degree in Computer Science with specialization of Video Games Development"

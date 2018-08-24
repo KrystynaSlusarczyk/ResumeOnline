@@ -26,7 +26,7 @@ export default class Showcase extends Component {
               <div className="col-md-8">
                 <div className="d-flex flex-column" >
                   <ShortInfoBlock content="Krystyna Ślusarczyk"/>
-                  <ShortInfoBlock content="Full Stack .NET Developer at Motabi Ltd."/>
+                  <ShortInfoBlock content="Full Stack .NET Developer"/>
                   <ShortInfoBlock content="slusarczyk.krystyna@gmail.com"/>
                 </div>
               </div>
