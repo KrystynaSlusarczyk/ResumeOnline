@@ -22,6 +22,7 @@ function setPopupPlacement(currentItem, index) {
   $(currentItem).popover({
     html: true,
     content: content.html(),
+    sanitize: false,
     placement: index % 2 == 0
       ? "left"
       : "right"

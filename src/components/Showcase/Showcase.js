@@ -2,7 +2,7 @@ import React, { Component } from 'react';
 import LinkIcon from '../Util/LinkIcon';
 import ShortInfoBlock from '../Util/ShortInfoBlock';
 import ABOUT from "../../data/About";
-import profilePhoto from '../../img/kslusarczyk3.jpg'
+import profilePhoto from '../../img/kslusarczyk4.png'
 
 export default class Showcase extends Component {
   render() {

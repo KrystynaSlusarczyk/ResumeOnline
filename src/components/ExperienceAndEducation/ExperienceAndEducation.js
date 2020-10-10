@@ -4,7 +4,7 @@ import {setTimelinePopups} from '../../util/Timeline'
 
 export default class ExperienceAndEducation extends Component {
 
-  componentWillMount()
+  componentDidMount()
   {
     setTimelinePopups();
   }
